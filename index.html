@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KartikProgrammed</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body,
+        html {
+
+            margin: 0;
+            height: 100%;
+
+        }
+
+        .mainbody {
+            background-image: url("index_bg2.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        .title {
+
+            font: small-caps bold 24px/1 Monaco;
+            font-size: xx-large;
+            color: white;
+
+
+        }
+
+        .cont {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .subtitle {
+            order: 4;
+            font-size: large;
+            color: white;
+            font-family: Lucida Bright;
+        }
+
+        .edit {
+            order: 2;
+            color: white;
+            font-size: x-small;
+            position: relative;
+            left: 5%
+        }
+
+        .edit2 {
+            font-family: Monaco;
+        }
+
+        .arr {
+            order: 3;
+            color: white;
+            position: relative;
+            left: 7%;
+            font-size: x-small;
+            font-family: Lucida Bright;
+        }
+
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            left: 0px;
+            z-index: 1000;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        .abme {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .abmereal {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .meimg {
+            display: block;
+            height: auto;
+            border-radius: 0.3rem;
+        }
+
+        .feature-icon-small {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .contactme {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 50vh;
+        }
+
+        .contactme>* {
+            padding: 10px;
+        }
+        
+        .blclr{
+            color:black;
+            text-decoration: none;
+        }
+
+        .scrolled {
+            background-color: rgba(6, 6, 5, 0.6);
+            color:white
+
+        }
+
+        .container1 {
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-around;
+            gap: 3rem;
+            font-size: 20px;
+        }
+
+        .container1 * {
+            font-weight: bold;
+            margin-top: 1%;
+        }
+
+        .nm {
+            margin-right: auto;
+            margin-left: 20px;
+            text-align: center;
+        }
+
+        .cm {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="mainbody">
+        <div class="container1">
+            <div class="nm">
+                <p><a class="blclr" href="index.html">KartikProgrammed</a></p>
+            </div>
+            <div class="am">
+                <p><a class="blclr" href="#abb">About Me</a></p>
+            </div>
+            <div class="skill">
+                <p><a class="blclr" href="#skk">My Skills</a></p>
+            </div>
+            <div class="cm">
+                <p><a class="blclr" href="#contactt">Contact Me</a></p>
+            </div>
+        </div>
+        <div class="cont">
+            <div class="title hero-title mb-4 fw-bold fs-1">
+                <p>KARTIK KHATRI</p>
+            </div>
+            <div class="subtitle"> For the ❤️ of <span class="edit2 text-decoration-line-through">coding</span> :D</div>
+            <div class="arr"><img class="imgbody" src="arrow-90deg-right.svg" height="15px" alt="arrow"> LEARNING</div>
+        </div>
+    </div>
+    <div id="abb" class="abme">
+        <div class="abmereal row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis">ABOUT ME</h1>
+                <p class="lead">Hi! I am a computer enthusiast always open for learning new languages.For as a passion I
+                    capture nature and Wildlife with a hint of love for Travel. </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"><a class="blclr" href="#contactt">Contact Me!</a></button>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                <img class="meimg rounded-lg-3" src="me.jpg" alt="" width="450">
+            </div>
+        </div>
+    </div>
+    <div id="skk" class="skill">
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom">My Skills</h2>
+
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+                <div class="col d-flex flex-column align-items-start gap-2">
+                    <h2 class="fw-bold text-body-emphasis">Languages & Concepts</h2>
+                    <p class="text-body-secondary">I am proficient in several programming languages, including C, C++,
+                        Java, and Python. These skills enable me to tackle a wide range of software development
+                        projects, from system-level programming and performance-critical applications to web development
+                        and data analysis.</p>
+
+                </div>
+
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+                        <div class="col d-flex flex-column gap-2">
+                            <div
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <img src="cpu.svg" height="30px" alt="">
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Operating Systems</h4>
+                            <p class="text-body-secondary">I have a solid understanding of Operating Systems as a
+                                subject, encompassing key concepts like process management, memory management, and file
+                                systems.</p>
+                        </div>
+
+                        <div class="col d-flex flex-column gap-2">
+                            <div
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <img src="database.svg" height="30px" alt="">
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Database</h4>
+                            <p class="text-body-secondary">I have a strong foundation in Database Management Systems
+                                (DBMS) with expertise in SQL.</p>
+                        </div>
+
+                        <div class="col d-flex flex-column gap-2">
+                            <div
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <img src="diagram-2.svg" height="30px" alt="">
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Data Structures</h4>
+                            <p class="text-body-secondary">I have a deep understanding of data structures, including
+                                arrays, linked lists, stacks, queues, trees, and graphs. </p>
+                        </div>
+
+                        <div class="col d-flex flex-column gap-2">
+                            <div
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <img src="braces.svg" height="30px" alt="">
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Full-Stack Developer</h4>
+                            <p class="text-body-secondary">I am skilled in full stack development, with proficiency in
+                                both front-end and back-end technologies. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contactt" class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Contact Me!</h1>
+                <p class="col-lg-10 fs-4">If you want to enquire about my projects or work with me, do contact me! </p>
+            </div>
+            <div class="col-md-10 mx-auto col-lg-5">
+                <form id="myform" class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Name</label>
+                    </div>
+
+                    <button onclick="sendMail(); return false" class="w-100  btn btn-lg btn-primary" type="submit">Contact Me</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© KartikProgrammed,Gurugram</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://github.com/KartikProgrammed"><img
+                            src="github.svg" alt=""></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="www.linkedin.com/in/kartik-khatri-509723201"><img
+                            src="linkedin.svg" alt=""></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/kartikk.khatri"><img
+                            src="instagram.svg" alt=""></a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
